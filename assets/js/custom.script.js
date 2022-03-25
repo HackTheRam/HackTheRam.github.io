@@ -639,17 +639,18 @@
 
 })(jQuery);
 
-modalCurrentVersion = 4
+// modalCurrentVersion = 4
 
-//  Covid Modal
-MicroModal.init();
-if (localStorage.getItem('hasSeenModal') !== modalCurrentVersion.toString()) {
-    MicroModal.show('modal-1'); // [1]
-}
+// //  Covid Modal
+// MicroModal.init();
+// if (localStorage.getItem('hasSeenModal') !== modalCurrentVersion.toString()) {
+//     MicroModal.show('modal-1'); // [1]
+//     hasSeenModal()
+// }
 
-function hasSeenModal() {
-    localStorage.setItem('hasSeenModal', modalCurrentVersion);
-}
+// function hasSeenModal() {
+//     localStorage.setItem('hasSeenModal', modalCurrentVersion);
+// }
 
 
 
