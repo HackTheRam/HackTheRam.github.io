@@ -639,12 +639,13 @@
 
 })(jQuery);
 
-modalCurrentVersion = 2
+modalCurrentVersion = 5
 
 //  Covid Modal
 MicroModal.init();
 if (localStorage.getItem('hasSeenModal') !== modalCurrentVersion.toString()) {
     MicroModal.show('modal-1'); // [1]
+    hasSeenModal()
 }
 
 function hasSeenModal() {
