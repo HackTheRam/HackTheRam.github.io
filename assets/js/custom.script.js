@@ -639,7 +639,7 @@
 
 })(jQuery);
 
-modalCurrentVersion = 5
+modalCurrentVersion = 6
 
 //  Covid Modal
 MicroModal.init();
