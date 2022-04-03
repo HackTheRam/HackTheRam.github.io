@@ -643,14 +643,16 @@ modalCurrentVersion = 6
 
 //  Covid Modal
 MicroModal.init();
-if (localStorage.getItem('hasSeenModal') !== modalCurrentVersion.toString()) {
-    MicroModal.show('modal-1'); // [1]
-    hasSeenModal()
-}
+MicroModal.show('modal-1'); // [1]
 
-function hasSeenModal() {
-    localStorage.setItem('hasSeenModal', modalCurrentVersion);
-}
+// if (localStorage.getItem('hasSeenModal') !== modalCurrentVersion.toString()) {
+//     MicroModal.show('modal-1'); // [1]
+//     hasSeenModal()
+// }
+
+// function hasSeenModal() {
+//     localStorage.setItem('hasSeenModal', modalCurrentVersion);
+// }
 
 
 
