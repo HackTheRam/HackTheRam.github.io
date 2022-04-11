@@ -642,8 +642,8 @@
 modalCurrentVersion = 6
 
 //  Covid Modal
-MicroModal.init();
-MicroModal.show('modal-1'); // [1]
+// MicroModal.init();
+// MicroModal.show('modal-1'); // [1]
 
 // if (localStorage.getItem('hasSeenModal') !== modalCurrentVersion.toString()) {
 //     MicroModal.show('modal-1'); // [1]
